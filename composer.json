@@ -1,18 +1,21 @@
 {
-  "name": "vendor/name",
-  "description": "",
+  "name": "innonic/tdd_course_2",
+  "description": "TDD course coding task 2",
   "minimum-stability": "dev",
   "license": "",
   "authors": [
     {
-      "name": "Rosti",
-      "email": "kubu1518@gmail.com"
+      "name": "istvan.rostas",
+      "email": "istvan.rostas@innonic.com"
     }
   ],
-  "config": {
-    "vendor-dir": "vendor"
-  },
   "require": {
-    "phpunit/phpunit": "5.6.0"
+    "phpunit/phpunit": "^4.8",
+    "phpunit/phpunit-mock-objects": "2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
   }
 }

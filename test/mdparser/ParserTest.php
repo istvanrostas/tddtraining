@@ -1,6 +1,6 @@
 <?php
 
-require_once '../../app/mdparser/Parser.php';
+require_once '../../src/mdparser/Parser.php';
 
 class ParserTest extends PHPUnit_Framework_TestCase
 {
